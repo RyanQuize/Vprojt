@@ -1,0 +1,69 @@
+@media (max-width: 600px){
+    .descendente{
+        animation-name: fade;
+        animation-duration: 3.5s;
+        position: absolute;
+        top: -120%;
+        transition: top 1.8s ease;
+    }
+    @keyframes fade {
+        from {opacity: .22}
+        to {opacity: 1}
+      }
+
+    #nave{
+        padding: 20px;
+    }
+
+    #dtq{
+        justify-content: start;
+        padding: 30px;
+    }
+
+    #pro-al{
+        background-color: rgba(255, 255, 255, 0.027);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        padding: 20px;
+    
+    }
+    #p-al{
+        font-size: 1em;
+        font-family: "Open Sans";
+    }
+    .img-al{
+        width: 100px;
+        height: 100px;
+    }
+    .product{
+        padding: 10px;
+    }
+    .fot-cont{
+        font-size: 0.93em;
+    }
+    #copy{
+        font-size: 0.7em;
+        text-align: center;
+    }
+    .buy-item {
+        display: block; 
+        justify-content: center;
+        padding: 10px;
+        margin: auto;
+    }
+    .buy-image > img{
+        width: 360px;
+    }
+    .class-desc{
+        display: block;
+        padding: 20px;
+    }
+    .item-h {
+        padding: 0px 0px 50px 0px;
+    }
+    .fot-cont > h3{
+        font-size: 1.1em;
+    }
+}
